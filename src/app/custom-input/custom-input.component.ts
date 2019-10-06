@@ -15,10 +15,10 @@ export class CustomInputComponent implements OnInit {
   ngOnInit() {
   }
 
-  get classes(){
+  get classes() {
     const cssClasses = {}
 
-    if(this.icon) {
+    if (this.icon) {
       cssClasses['fa-' + this.icon] = true;
     }
 
